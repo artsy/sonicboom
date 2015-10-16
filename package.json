@@ -1,0 +1,29 @@
+{
+  "name": "sonicboom",
+  "version": "1.0.0",
+  "description": "A Sketch App Plugin to randomly place artworks from Gravity",
+  "main": "index.js",
+  "scripts": {
+    "test": "nf run mocha",
+    "start": "nf run forever start index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artsy/sonicboom.git"
+  },
+  "author": "Craig, James, Brian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artsy/sonicboom/issues"
+  },
+  "homepage": "https://github.com/artsy/sonicboom#readme",
+  "dependencies": {
+    "artsy-xapp": "^1.0.4",
+    "express": "^4.13.3",
+    "foreman": "^1.4.1",
+    "forever": "^0.15.1",
+    "mocha": "^2.3.3",
+    "should": "^7.1.0",
+    "superagent": "^1.4.0"
+  }
+}
